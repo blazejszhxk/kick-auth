@@ -1,0 +1,15 @@
+{
+    "KICK_CLIENT_ID": "put_your_own",
+    "KICK_CLIENT_SECRET": "put_your_own",
+    "REDIRECT_URL": "http://localhost:3000/oauth/kick/callback",
+    "KICK_SCOPES": [
+      "user:read",
+      "channel:read",
+      "chat:write",
+      "events:subscribe"
+    ],
+    "ENDPOINT": {
+      "authURL": "https://id.kick.com/oauth/authorize",
+      "tokenURL": "https://id.kick.com/oauth/token"
+    }
+  }  
