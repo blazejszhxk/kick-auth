@@ -5,7 +5,6 @@ import secrets
 import requests
 import webbrowser
 from flask import Flask, request, redirect, jsonify
-import os
 
 app = Flask(__name__)
 
